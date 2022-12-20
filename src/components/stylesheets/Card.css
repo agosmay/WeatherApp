@@ -1,48 +1,42 @@
 .container {
-	border: 2px solid white;
-	width: 500px;
-	height: 400px;
+	width: 400px;
+	height: 500px;
+	margin: 20px auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	margin: 50px auto;
 	flex-wrap: wrap;
-}
-
-.sentence {
 	text-align: center;
-	font-size: 2.2rem;
-	
 }
 
-.container-data {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
 
-.input {
-	width: 100%;
-	
-}
-
-.climate-container{ 
-	width: 100%;
-}
-
-.btn {
-	text-decoration: none;
-	font-size: 2.2rem;
-	color: black;
-	width: 140px;
-	height: 90px;
-	border-radius: 30px;
-	
-}
 
 .input {
 	width: 90%;
 	height: 50px;
+	margin: 20px auto;
+	font-size: 2rem;
+	
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.climate-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.weather-data {
+	width: 100%;
+}
+
+.sentence {
+	font-size: 2rem;
 	
 }
