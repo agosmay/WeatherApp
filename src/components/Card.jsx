@@ -76,7 +76,7 @@ const Card  = () => {
 											</>
 										)
 									}
-									{weatherData.weather[0].main==="Mist" ? (
+									{weatherData.weather[0].main==="Mist" || weatherData.weather[0].main==="Fog" ? (
 											<h3 className="icon"><BsCloudFog /></h3>
 										) : (
 											<>
