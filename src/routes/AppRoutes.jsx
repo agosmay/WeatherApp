@@ -1,24 +1,24 @@
 import React from 'react';
-import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import { HashRouter , Routes , Route } from 'react-router-dom';
 import Home from '../components/Home';
 import Card from '../components/Card';
 
 const AppRoutes = () => {
 	
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route
-					path="/WeatherApp"
+					path="/"
 					element={<Home />}
 				/>
 				<Route 
-					path="WeatherApp/city"
+					path="/city"
 					element={<Card />}
 				/>
 				
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 

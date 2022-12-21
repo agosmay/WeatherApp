@@ -25,7 +25,6 @@ const Card  = () => {
 			.then(res=> res.json())
 			.then(data=> {
 				setWeatherData(data)
-				console.log(data)
 				setCity('')
 			})
 		
@@ -115,7 +114,7 @@ const Card  = () => {
 						</>
 					)}
 					<button className="btn" onClick={()=> setWeatherData("")}>Ask a new city</button>
-					<button className="btn"><Link to="/WeatherApp" className="btn">Back to Home</Link></button>
+					<button className="btn"><Link to="/" className="btn">Back to Home</Link></button>
 			</div>	
 			
 		</>
