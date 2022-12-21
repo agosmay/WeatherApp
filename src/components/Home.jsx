@@ -21,7 +21,7 @@ const Home = () => {
 		<>
 			<div className="container-home">
 			 <h1 className="titulo">Welcome to Weather App</h1>
-			  <button className="btn location"><a href="/city"className="btn">Search a city</a></button>
+			  <button className="btn location"><a href="WeatherApp/city"className="btn">Search a city</a></button>
 			</div>
 			 <Swiper
 				 

@@ -114,8 +114,8 @@ const Card  = () => {
 							
 						</>
 					)}
-					<button className="btn" onClick={()=> setWeatherData("")}><Link to="/city" className="btn">Ask a new city</Link></button>
-					<button className="btn"><Link to="/" className="btn">Back to Home</Link></button>
+					<button className="btn" onClick={()=> setWeatherData("")}><Link to="WeatherApp/city" className="btn">Ask a new city</Link></button>
+					<button className="btn"><Link to="/WeatherApp" className="btn">Back to Home</Link></button>
 			</div>	
 			
 		</>

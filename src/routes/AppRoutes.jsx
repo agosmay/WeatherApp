@@ -9,11 +9,11 @@ const AppRoutes = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route
-					path="/"
+					path="/WeatherApp"
 					element={<Home />}
 				/>
 				<Route 
-					path="/city"
+					path="WeatherApp/city"
 					element={<Card />}
 				/>
 				
