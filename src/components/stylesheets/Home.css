@@ -44,7 +44,7 @@ img {
 	}
 	
 	img {
-		width: 1280px;
+		min-width: 1700px;
 		height: 400px;
 		
 		
